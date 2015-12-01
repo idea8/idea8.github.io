@@ -4,7 +4,9 @@ body{
 #logo{
 	position:relative;
 	margin-top:30px;
-
+	height:80px;
+	margin-top: 40px;
+	margin-left: 45px;
 
 	}
 .header{
@@ -26,7 +28,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	color: #34495E;
-	margin-top:-30px;
+	margin-top:-60px;
 	font-size:1.2em;
 	}
 
