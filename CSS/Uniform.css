@@ -1,0 +1,126 @@
+body {
+  background-color: #EEEEEE;
+  font-family: 'Open Sans', sans-serif;
+  color: #34495E;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Logo{
+  position:relative;
+  left:0px;
+  margin-left:10px;
+  margin-top:10px;
+  width:10px;
+}
+
+.header {
+  font-family: 'caveat', cursive;
+  font-size: 4em;
+  text-align: center;
+  color: #91688F;
+  margin-top: 5%;
+}
+
+.roadmap {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6em;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #DCDCDC;
+  margin-top: 2%
+}
+
+span {
+  margin-right:20px;
+}
+
+ /*
+ this is the html that should be in the roadmap,
+ changing the span style to whatever page yours is
+ <div class = "roadmap">
+   <span><img src="./images/Settings.png"> Settings</span>
+   <span><img src="./images/WaitingRoom.png"> Waiting Room</span>
+   <span><img src="./images/Ideate.png"> Ideate </span>
+   <span><img src="./images/Share.png"> Share/Feedback</span>
+   <span style="color:#34495E"><img src="./images/Iterate.png"> Iterate </span>
+ </div>
+*/
+
+.button {
+  padding:10px;
+  background-color: #EEEEEE;
+  cursor: pointer;
+  width:15%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #68A0A0;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #68A0A0;
+  color:#EEEEEE;
+  border: 2px solid #EEEEEE;
+}
+
+
+.modalDialog {
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #34495E;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    color: #34495E;
+    width: 40%;
+    position: relative;
+    margin: 10% auto;
+    padding: 60px 60px 60px 60px;
+    border-radius: 5px;
+    background-color: #DCC6E0;
+    text-align: center;
+    /*background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);*/
+    border: 2px solid #68A0A0;
+}
+
+.close {
+    background: #DCC6E0;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #68A0A0;
+}

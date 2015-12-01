@@ -1,0 +1,72 @@
+.Title{
+	font-family: 'Caveat', cursive;
+	font-size: 52;
+	text-align: center;
+	color:#91688F;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin:0px;
+	background-color: #EEEEEE;
+}
+
+.Non_Chat{
+/*	margin-top: calc(50% - 200px);
+*/	width: calc(50% + 500px);
+}
+.Content{
+	margin-top: 100px;
+	margin-left: -100px;
+}
+.Message{
+	text-align: center;
+}
+.Waiting_Table > table{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:400px;
+}
+td{
+	height:30px;
+}
+#tableEntry{
+	color:black;
+}
+#tableHead{
+	background-color: #DCC6e0;
+	border-radius: 10px;
+}
+.Search_Bar{
+	background-color: white;
+	border-style: none;
+	border-radius: 5;
+	font-size: 15px;
+	height:25px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: calc(50% - 550px);
+	color: grey;
+	padding:4px;
+	width:400px;
+}
+.Ready_Button{
+	padding:10px;
+	background-color: white;
+	color: #68A0A0;
+	cursor: pointer;
+	background-color: #EEEEEE;
+	width:100px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #68A0A0;
+	border-radius: 10px;
+	margin-left: calc(50% - 70px);
+}
+.Ready_Button:hover {
+	background-color: #68A0A0;
+	color: #EEEEEE;
+	border-color: #EEEEEE;
+}

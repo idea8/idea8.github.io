@@ -1,0 +1,147 @@
+.logo img {
+  width: ;
+  height: auto;
+  margin: 2% 0;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Open Sans';
+    font-size: 87.5%;
+    text-align: center;
+    line-height: 2;
+}
+
+.body {
+  margin: 0 auto;
+  width: 80%;
+  clear: both;
+}
+
+
+h1 {
+    color: #91688F;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 72px;
+    margin-bottom: none;
+}
+
+
+h2 {
+  color: #91688F;
+  text-align: center;
+}
+
+
+h3 {
+  color: #91688F;
+  text-align: center;
+}
+
+
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: left;
+    border-left: 36px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    color: #34495E;
+}
+
+form {
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+label {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #34495E;
+  margin-right: 2%;
+}
+/* Creates the text-line field */
+.text-line {
+      background-color: transparent;
+      color: black;
+      text-align: left;
+      outline: none;
+      outline-style: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: solid black 1.5px;
+      padding: 3px 10px;
+  }
+
+.number-range {
+
+}
+
+/* Remove controls from Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Re-applies the controls on :hover and :focus */
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+
+.time-line {
+
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #91688F;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.pop-up {
+
+}
+
+.next-button {
+    background-color: white;
+    color: #68A0A0;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: 2px solid #68A0A0; /* Green */
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.next-button:hover {
+    background-color: #68A0A0; /* Green */
+    color: white;
+}
