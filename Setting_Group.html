@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang = "en">
   <head>
-    <title> Settings | Group </title>
+    <title> Settings | Personal </title>
     <meta charset = "utf-8" />
-    <link rel = "stylesheet" href = "Setting_Group.css" />
-    <link type="text/css" rel="stylesheet" href="BookmarksBar.css"/>
+    <link rel = "stylesheet" href = "CSS/Setting_Group.css" />
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name = "viewport" content = "width-device-width, initial-scale = 1.0"/>
   </head>
+  <img class="Logo" src = "./images/logoIdea8-2.0.png">
   <body class = "body">
     <header>
       <!-- place logo here -->
@@ -16,8 +17,8 @@
     <div>
       <h1> You are working in a group project. </h1>
         <!-- Bookmark bar -->
-        <div class="bookmarkscontainer">
-          <p>
+        <div class="bookmarkscontainer" >
+          <p style="text-align: center; margin-bottom: 2.5%">
             <span style="color:#91688F" ><img src="./images/Settings.png"> Settings </span>
             <span><img src="./images/WaitingRoom.png"> Waiting Room </span>
             <span><img src="./images/Ideate.png"> Ideate </span>
@@ -26,20 +27,28 @@
           </p>
         </div>
         <form>
-          <label for="text"> Your Name: </label>
+          <label for="text" id = "name"> Your Name: </label>
           <input type = "text" class = "text-line" placeholder = "Ex. Boshna Yowen"/>
         </form>
         <form>
-          <label for="text"> Name of Your Project: </label>
+          <label for="text" id = "project"> Name of Your Project: </label>
           <input type = "text" class = "text-line" placeholder = "Ex. Idea8"/>
         </form>
         <form>
-          <label for="number"> Set Your Number of Idea Panels: </label>
-          <input type="number" id="number" name="number">
+          <label for="number" id = "panels"> Set Your Number of Idea Panels: </label>
+          <input type="number" class = "text-line" placeholder = "Ex. 8">
+          <span class="field-tip">
+            <i class="material-icons" style="font-size: 20px; color: #91688F; margin-left: -19.5%">info</i>
+              <span class="tip-content" style = "margin-right: -80px; margin-bottom: -15%">We recommend 8 panels. It's a great number of ideas to start and iterate with, but not too many to block your creative flow.</span>
+          </span>
         </form>
         <form>
-          <label for="number"> Set Time per Panel: </label>
+          <label for="number" id = "time"> Set Time per Panel: </label>
           <input type = "range" id = "range" name = "range">
+          <span class="field-tip">
+            <i class="material-icons" style="font-size: 20px; color: #91688F; margin-left: 10%">info</i>
+              <span class="tip-content">We recommend 1 minute or less for each panel. This way you can put all your ideas out there without getting fixated on one idea.</span>
+          </span>
         </form>
 
         <!-- <p> Your Name: </p>
@@ -53,7 +62,7 @@
           <input type="text" pattern="[0-9]*" id="age" name="age">
         </form>
         <p> Set time per panel: </p> -->
-        <button class = "next-button">Next!</button>
+        <a href = "Waitlist_Leader.html"><button class = "next-button">Next!</button></a>
     </div>
   </body>
 </html>

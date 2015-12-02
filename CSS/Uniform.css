@@ -5,13 +5,15 @@ body {
   text-align: center;
   font-size: 14px;
 }
-
+a{
+  text-decoration: none;
+}
 .Logo{
-  position:relative;
+  position:absolute;
   left:0px;
   margin-left:10px;
   margin-top:10px;
-  width:10px;
+  width:100px;
 }
 
 .header {
@@ -29,7 +31,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   color: #DCDCDC;
-  margin-top: 2%
+  margin-top: none;
 }
 
 span {

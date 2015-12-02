@@ -6,15 +6,14 @@ body {
 }
 
 
-
-header > p {
-  font-family: 'Caveat', cursive;
-  font-size: 56px;
-  text-align: left;
-  color: #91688F;
-  margin-bottom: 1%;
-	margin-top: 2%;
-	margin-left: 1%;
+header {
+	font-family: 'Caveat', cursive;
+	font-size: 3em;
+	text-align: center;
+	margin-top: -1.5em;
+	margin-bottom: .5em;
+	margin-right: 10%;
+	color:#91688F;
 }
 
 header > h1 {
@@ -27,6 +26,35 @@ header > h1 {
 
 }
 
+.Logo{
+  position:relative;
+  left:0px;
+  margin-left:45px;
+  margin-top: 40px;
+	width: 11%;
+	height: 11%;
+}
+
+.Non_Chat{
+	font-family: 'Open Sans', cursive;
+	text-align: center;
+	font-size: 18px;
+	color: ##CDCDCD;
+	margin-top: -1em;
+
+}
+
+.roadmap {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 1.3em;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #DCDCDC;
+  margin-top: 2%
+	margin-bottom: 4em;
+}
+
 .container {
 	margin-top: 1%;
 }
@@ -34,15 +62,17 @@ header > h1 {
 
 /* Flexible Slide-to-top Accordion Style*/
 .wrapper{
-	width:100%;
+	width:115%;
 	max-width:20%;
 	margin:30px;
 	float: left;
+	margin-top: 7em;
 }
 .st-accordion{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 16px;
-    width:100%;
+    width:105%;
+		height: 110%;
     min-width:270px;
     margin: 0 auto;
 		border-top: 5px solid #eeeeee;
@@ -144,10 +174,10 @@ header > h1 {
 
 .preview img {
 	padding: 1px;
-	margin-top: 2%;
+	margin-top: -1em;
 	margin-bottom: 1%;
-	margin-right: 27%;
-	width: 30%;
+	margin-right: 24%;
+	width: 35%;
 	min-width: 30%;
 	border: 5px solid #fffff;
 	border-radius: 7px;
@@ -157,15 +187,17 @@ header > h1 {
 	text-align: center;
 	margin-right: 25%;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 0%;
+	font-size: 14px;
+	margin-top: 4em;
 	margin-bottom: -1%;
 }
 .preview h1 {
 	text-align: center;
 	margin-right: 24%;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 	margin-top: 0%;
-	margin-bottom: -2%;
+	margin-bottom: -1em;
 	color: #34495E;
 }
 
